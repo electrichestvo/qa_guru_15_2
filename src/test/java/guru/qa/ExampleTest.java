@@ -14,4 +14,9 @@ public class ExampleTest {
     void exampleTest1() {
         Assertions.assertTrue (11 > 9);
     }
+
+    @Test
+    void exampleTest2() {
+        Assertions.assertTrue (2 > 1);
+    }
 }
